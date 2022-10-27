@@ -1,25 +1,39 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
-function Nav() {
+function Nav(props) {
+    const {
+        sections = [],
+        currentSection,
+        setCurrentSection,
+        sectionActive,
+        setSectionActive
+    } = props;
+
+    useEffect(() => {
+        document.title = currentSection.name;
+    }, [currentSection]);
+
     return (
         <nav>
             <ul className="flex-row">
-                <li className="mx-2">
-                    <a href="#about">
-                        About Me
-                        </a>
-                </li>
-                <li className="mx-2">
-                    <span>Portfolio</span>
-                </li>
-                <li className="mx-2">
-                    <span>Contact</span>
-                </li>
-                <li className="mx-2">
-                    <span>Resume</span>
-                </li>
+                {sections.map((section) => (
+                    <li
+                        className={`mx-1 ${currentSection.name === section.name && sectionActive && 'navActive'}`}
+                        key={section.name}
+                    >
+                        <span
+                            onClick={() => {
+                                setCurrentSection(section);
+                                setSectionActive(true);
+                            }}
+                        >
+                            {section.name}
+                        </span>
+
+                    </li>
+                ))}
             </ul>
-        </nav>
+        </nav >
     );
 }
 
