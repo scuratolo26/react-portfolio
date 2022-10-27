@@ -6,8 +6,6 @@ import linkedIn from '../../assets/footer-pics/linkedIn.png';
 function Footer() {
     return (
         <footer>
-            <h1>Test Footer</h1>
-
             <a href="https://stackexchange.com/users/26744118/samantha-curatolo"
                 target="_blank" rel="noreferrer"><img src={stackOverflow} alt="stackOverflow" className="icon" /></a>
             <a href="https://github.com/scuratolo26"
