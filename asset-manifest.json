@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.1dfc34b8.css",
+    "main.js": "/react-portfolio/static/js/main.517507bd.js",
+    "static/js/787.0e6c9168.chunk.js": "/react-portfolio/static/js/787.0e6c9168.chunk.js",
+    "static/media/pizza-hunt.png": "/react-portfolio/static/media/pizza-hunt.b0522ebf0d00b7827da6.png",
+    "static/media/zoo-keeper.png": "/react-portfolio/static/media/zoo-keeper.3cf4c6c98d850ad34088.png",
+    "static/media/food-lovers.png": "/react-portfolio/static/media/food-lovers.5b9f0a831018fc657ffa.png",
+    "static/media/resume.png": "/react-portfolio/static/media/resume.cb894862a09f65834b19.png",
+    "static/media/headshot.jpg": "/react-portfolio/static/media/headshot.f45f42e4c28fe076cdfb.jpg",
+    "static/media/GitHub.png": "/react-portfolio/static/media/GitHub.565cb63526ec6e5a9d22.png",
+    "static/media/stack.png": "/react-portfolio/static/media/stack.554ffd4394f8144c3ede.png",
+    "static/media/linkedIn.png": "/react-portfolio/static/media/linkedIn.c2757241f93bd7196746.png",
+    "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.e1f08b5fdd4e75b0d88c.png",
+    "static/media/text-editor.png": "/react-portfolio/static/media/text-editor.2d2d9045022691e406c4.png",
+    "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.f1229257590080909d9a.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.1dfc34b8.css.map": "/react-portfolio/static/css/main.1dfc34b8.css.map",
+    "main.517507bd.js.map": "/react-portfolio/static/js/main.517507bd.js.map",
+    "787.0e6c9168.chunk.js.map": "/react-portfolio/static/js/787.0e6c9168.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1dfc34b8.css",
+    "static/js/main.517507bd.js"
+  ]
+}
