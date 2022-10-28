@@ -42,8 +42,8 @@ function Portfolio() {
     ];
 
     return (
-        <div>
-            <h2>Projects</h2>
+        <div className="projects-container">
+            <h1>Projects</h1>
             <div className="flex-row">
                 {projects.map(project => {
                     return (

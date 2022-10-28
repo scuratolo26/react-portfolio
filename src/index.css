@@ -3,6 +3,7 @@ main {
 	margin: 0 auto;
 	max-width: 90%;
   padding: 50px 30px;
+  height: 100%
 }
 :root {
   --green1: #CCD5AE;
@@ -34,12 +35,82 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--cream);
+  height: 100%;
 }
 
 .card-header {
   text-align: center;
 }
+
+.heading {
+  font-size: 70px;
+}
+
+.headshot {
+  border-radius: 50%;
+  border: black solid 2px;
+  height: 25%;
+  margin-top: 60px;
+}
+
+.bio {
+  width: 45%;
+  float: right;
+  text-align: center;
+  background-color: var(--green1);
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.about-me {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;;
+}
+
+footer {
+  bottom:0;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-container {
+  background-color: var(--green1);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.contact-form {
+  background-color: var(--green1);
+  padding: 10px;
+  border-radius: 15px;
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-form form div {
+  padding: 15px;
+}
+
+.submit-btn {
+  color: black;
+  background-color: var(--green2);
+}
+
+.resume-bitmoji {
+  width: 40% ;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 h1,
 h2,
@@ -53,7 +124,8 @@ h6 {
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 40px;
+  text-align: center;
 }
 
 h2 {
@@ -87,7 +159,7 @@ a {
 }
 
 header {
-  background: var(--cream);
+  border-bottom: solid black 3px;
 }
 
 header a {
@@ -145,12 +217,13 @@ li {
   list-style: none;
 }
 
-nav a:hover {
-  text-decoration: none;
+nav {
+  text-align: center;
 }
 
 nav  li {
   cursor: pointer;
+  font-size: 30px;
 }
 
 textarea {
@@ -170,6 +243,7 @@ textarea {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .space-between {
@@ -231,7 +305,7 @@ textarea {
   width: 25%;
   border-radius: 5px;
   margin: 10px;
-  background-color: var(--green1);
+  background-color: white;
 }
 
 .card:hover {
@@ -255,7 +329,7 @@ textarea {
     cursor: pointer;
     width: 100%;
     font-size: 18px; 
-    background-color: var(--green2);
+    background-color: var(--green1);
 }
 
 .card-button:hover {
@@ -296,10 +370,16 @@ a {
 }
 
 .navActive {
-  color: var(--green2);
+background-color: var(--green1);
+width: 20%;
 }
 
 .icon {
   width: 75px;
   height: 80px;
+  margin: 40px;
+}
+
+.icon:hover {
+  opacity:  .4;
 }

@@ -34,10 +34,10 @@ function ContactForm() {
     };
 
     return (
-        <section>
+        <section className="contact-form">
             <h1 data-testid="h1tag">Contact me</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
+                <div className="form-name">
                     <label htmlFor="name">Name:</label>
                     <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
                 </div>
@@ -54,7 +54,7 @@ function ContactForm() {
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-                <button data-testid="button" type="submit">Submit</button>
+                <button data-testid="button" type="submit" className="submit-btn">Submit</button>
             </form>
         </section>
     );

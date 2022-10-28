@@ -12,7 +12,7 @@ function Header(props) {
 
     return (
         <header>
-            <h1>Samantha Curatolo</h1>
+            <h1 className="heading">Samantha Curatolo</h1>
             <Nav
                 sections={sections}
                 currentSection={currentSection}
