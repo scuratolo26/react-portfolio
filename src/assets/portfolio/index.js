@@ -4,6 +4,7 @@ import techBlog from "./tech-blog.png";
 import pizzaHunt from "./pizza-hunt.png";
 import textEditor from "./text-editor.png";
 import zooKeeper from "./zoo-keeper.png";
+import popCorner from "./pop-corner.png";
 
 const images = {
     foodLovers,
@@ -12,6 +13,7 @@ const images = {
     pizzaHunt,
     textEditor,
     zooKeeper,
+    popCorner
 };
 
 export default images;
